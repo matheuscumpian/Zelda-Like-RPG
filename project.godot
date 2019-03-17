@@ -72,6 +72,11 @@ down={
  ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Player"
+2d_physics/layer_2="Chunks"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"

@@ -9,5 +9,6 @@ func _ready():
 
 func exit_chunk(delta):
 	
-	print(delta)
+	get_parent().switch_chunk(self,delta)
+	
 	pass
